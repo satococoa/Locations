@@ -7,6 +7,6 @@ Motion::Project::App.setup do |app|
   app.name = 'Locations'
   # app.deployment_target = '4.3'
   app.frameworks += [
-    'CoreLocation'
+    'CoreLocation', 'CoreData'
   ]
 end
